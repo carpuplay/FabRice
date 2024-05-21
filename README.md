@@ -1,2 +1,3 @@
-# FabRice
+# FabRice ![Static Badge](https://img.shields.io/badge/Distribution-v0.1_alpha-red)
+
 Documentation et code source de FabRice, le robot Autonome.
