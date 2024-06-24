@@ -5,3 +5,7 @@
 
 
 Documentation et code source de FabRice, le robot Autonome.
+
+
+https://github.com/carpuplay/FabRice/assets/105707690/c5297ea4-ff5c-44ba-818a-8cf2bbc0ec9c
+
