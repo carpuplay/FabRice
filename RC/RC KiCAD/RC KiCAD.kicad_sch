@@ -3664,6 +3664,12 @@
 		(uuid "0954cae1-63d0-44f2-aac6-742d847e8a8f")
 	)
 	(junction
+		(at 209.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18973904-d1fe-4877-bee8-cbed2117bfe7")
+	)
+	(junction
 		(at 66.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3674,12 +3680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2368958b-b3b2-49f0-856c-f3b44ce6fc51")
-	)
-	(junction
-		(at 209.55 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3905f1aa-66a7-4c04-9b8d-0d11b7f2bb3e")
 	)
 	(junction
 		(at 204.47 40.64)
@@ -3879,6 +3879,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 99.06) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7b1e4c-bbb2-4f5c-9351-01e9e887eb7a")
+	)
+	(wire
+		(pts
 			(xy 118.11 40.64) (xy 123.19 40.64)
 		)
 		(stroke
@@ -3956,6 +3966,16 @@
 			(type default)
 		)
 		(uuid "31d68ffc-8471-46d4-ab97-685d13c9071c")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395b579c-9831-4d84-988e-9c7284e29235")
 	)
 	(wire
 		(pts
@@ -4039,16 +4059,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 83.82) (xy 45.72 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e92795-14ed-442b-83c9-53ddd63df66d")
-	)
-	(wire
-		(pts
 			(xy 160.02 64.77) (xy 204.47 64.77)
 		)
 		(stroke
@@ -4089,16 +4099,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705e9968-0769-4f67-8bf3-ae035cb8b77f")
-	)
-	(wire
-		(pts
 			(xy 123.19 64.77) (xy 123.19 59.69)
 		)
 		(stroke
@@ -4116,6 +4116,16 @@
 			(type default)
 		)
 		(uuid "76584f48-0b42-410d-a46f-0703d83aae6a")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 17.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a38042c-ff5a-464d-9d67-9afff88f4329")
 	)
 	(wire
 		(pts
@@ -4149,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.41) (xy 185.42 83.82)
+			(xy 185.42 88.9) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4229,16 +4239,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 209.55 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd17cb03-079b-4fb3-a838-ff01ea0d5e00")
-	)
-	(wire
-		(pts
 			(xy 66.04 104.14) (xy 66.04 88.9)
 		)
 		(stroke
@@ -4259,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 38.1) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89cc8fc-6cef-47ca-89a9-62a6e78ea02e")
+	)
+	(wire
+		(pts
 			(xy 185.42 83.82) (xy 185.42 73.66)
 		)
 		(stroke
@@ -4266,6 +4276,16 @@
 			(type default)
 		)
 		(uuid "ce9dbd91-b146-4769-b811-2ebb134c683d")
+	)
+	(wire
+		(pts
+			(xy 17.78 83.82) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf05cd09-ccaf-452c-b662-67606038a019")
 	)
 	(wire
 		(pts
@@ -4289,6 +4309,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 88.9) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf361f4-8aed-4236-b28f-3685d488c160")
+	)
+	(wire
+		(pts
 			(xy 185.42 83.82) (xy 180.34 83.82)
 		)
 		(stroke
@@ -4299,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 209.55 105.41)
+			(xy 209.55 53.34) (xy 209.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4346,6 +4376,16 @@
 			(type default)
 		)
 		(uuid "ec11d318-2338-4ea8-adfd-ced77838ebe7")
+	)
+	(wire
+		(pts
+			(xy 209.55 110.49) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee78ef38-c085-4793-823e-1a1bb2b295b9")
 	)
 	(wire
 		(pts
@@ -4451,28 +4491,6 @@
 			)
 		)
 	)
-	(global_label "BMS VCC"
-		(shape input)
-		(at 27.94 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e431484-fbcd-4c96-bddf-f59c9d91ffa3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.4277 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 209.55 134.62 270)
@@ -4552,28 +4570,6 @@
 		(uuid "c16a8ffc-c726-4836-ac10-d5090fdff8f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.0543 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 45.72 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f470ecfe-15d0-442d-9347-52ec32125fcd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1062 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_APT1608SGC_KNB"
+		(property "Footprint" "Footprints:LED_APT1608SGC_KNB"
 			(at 146.05 29.21 0)
 			(effects
 				(font
@@ -4821,7 +4817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JMK325ABJ107MM-P:CAPC3225X280N"
+		(property "Footprint" "Footprints:CAPC3225X280N"
 			(at 114.3 95.25 0)
 			(effects
 				(font
@@ -5104,7 +5100,7 @@
 	)
 	(symbol
 		(lib_id "1043P:1043P")
-		(at 193.04 105.41 0)
+		(at 193.04 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5113,7 +5109,7 @@
 		(fields_autoplaced yes)
 		(uuid "33fa2d1b-71a1-4eb9-bde1-63066eca75f3")
 		(property "Reference" "BT1"
-			(at 192.405 97.79 0)
+			(at 192.405 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5117,7 @@
 			)
 		)
 		(property "Value" "1043P"
-			(at 192.405 100.33 0)
+			(at 192.405 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5125,7 @@
 			)
 		)
 		(property "Footprint" "1043P:BAT_1043P"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5153,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5163,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5173,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "1043P"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5183,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.11mm"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5193,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRM2512_FX_2R00ELF:RESC6331X80N"
+		(property "Footprint" "Footprints:RESC6331X80N"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -5438,7 +5434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc4eeca-6aa7-47b6-a06d-0791f9dec012")
-		(property "Reference" "VR1"
+		(property "Reference" "U12"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -5454,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM317T:TO254P1054X470X1955-3"
+		(property "Footprint" "Footprints:TO254P1054X470X1955-3"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -5534,7 +5530,7 @@
 		(instances
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
-					(reference "VR1")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5638,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JMK325ABJ107MM-P:CAPC3225X280N"
+		(property "Footprint" "Footprints:CAPC3225X280N"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -6000,7 +5996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BD140:TO229P760X270X1364-3"
+		(property "Footprint" "Footprints:TO229P760X270X1364-3"
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -6256,6 +6252,124 @@
 		)
 	)
 	(symbol
+		(lib_id "1043P:1043P")
+		(at 193.04 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf3056ef-3e4a-4fde-8460-2b0bf0b75daf")
+		(property "Reference" "BT2"
+			(at 192.278 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1043P"
+			(at 192.532 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:BAT_1043P"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "1043P"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.11mm"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P"
+			(uuid "278cceb9-3292-4001-b55d-963c70d6dfba")
+		)
+		(pin "N"
+			(uuid "d62ca755-c74d-43da-b046-3407063e04e5")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DSS14UTR:DSS14UTR")
 		(at 162.56 40.64 0)
 		(unit 1)
@@ -6434,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda4874b-90ef-4fed-97d9-fdf0d23f9ca8")
-		(property "Reference" "VR2"
+		(property "Reference" "U6"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -6450,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM317T:TO254P1054X470X1955-3"
+		(property "Footprint" "Footprints:TO254P1054X470X1955-3"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -6530,7 +6644,7 @@
 		(instances
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
-					(reference "VR2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6634,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CX90B1-24P:HRS_CX90B1-24P"
+		(property "Footprint" "Footprints:HRS_CX90B1-24P"
 			(at 63.5 45.72 0)
 			(effects
 				(font
