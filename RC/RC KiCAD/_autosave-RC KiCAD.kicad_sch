@@ -243,6 +243,605 @@
 				)
 			)
 		)
+		(symbol "APT1608SGC:APT1608SGC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 5.08 -4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "APT1608SGC"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "LED_APT1608SGC_KNB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "APT1608SGC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "APT1608SGC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_APT1608SGC_KNB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APT1608SGC_1_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 6.35 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.175) (xy 6.35 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 6.985 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 3.81) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 8.255 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 3.81) (xy 8.89 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 4.445) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.175) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 4.445) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 4.445) (xy 9.525 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "APT1608SGC_1_2"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.445 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.905) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -3.81) (xy -3.81 -3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -0.635) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -4.445 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.905) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.445 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -5.08) (xy -4.445 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -4.445 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -6.35) (xy 1.905 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -6.6802)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.985) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.905 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.81) (xy -1.905 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "BD140:BD140"
 			(pin_names
 				(offset 1.016)
@@ -1451,6 +2050,342 @@
 				)
 			)
 		)
+		(symbol "DSS14UTR:DSS14UTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DSS14UTR"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DSS14UTR:SODFL3618X110N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "SMC Diode Solutions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nDiode Schottky 40 V 1A Surface Mount SOD-123FL\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOD-123F SMC Diode Solutions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DSS14UTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS14UTR/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DSS14UTR_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "JMK325ABJ107MM-P:JMK325ABJ107MM-P"
 			(pin_names
 				(offset 1.016)
@@ -2126,6 +3061,206 @@
 				)
 			)
 		)
+		(symbol "RMCF2512JT330R:RMCF2512JT330R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RMCF2512JT330R"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RMCF2512JT330R:RESC6332X70N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF2512JT330R_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RMCF2512JT3K30:RMCF2512JT3K30"
 			(pin_names
 				(offset 1.016)
@@ -2499,10 +3634,22 @@
 		)
 	)
 	(junction
+		(at 114.3 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "029d4942-fb47-4d76-ba89-486e2a929479")
+	)
+	(junction
 		(at 66.04 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03448d99-a4bb-4c7b-a91a-f68fd4ba4154")
+	)
+	(junction
+		(at 209.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cf3c8f-fa8b-4870-9018-7432edcd063e")
 	)
 	(junction
 		(at 123.19 59.69)
@@ -2517,6 +3664,12 @@
 		(uuid "0954cae1-63d0-44f2-aac6-742d847e8a8f")
 	)
 	(junction
+		(at 209.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18973904-d1fe-4877-bee8-cbed2117bfe7")
+	)
+	(junction
 		(at 66.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,6 +3680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2368958b-b3b2-49f0-856c-f3b44ce6fc51")
+	)
+	(junction
+		(at 204.47 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44eef41d-6cf7-4b72-98b9-b81fdfd894fb")
 	)
 	(junction
 		(at 163.83 59.69)
@@ -2545,6 +3704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "612de252-4afd-4fc6-85a6-84a7604d01a3")
+	)
+	(junction
+		(at 102.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ec5f9a-ab34-4795-a362-1d7ec9b02672")
 	)
 	(junction
 		(at 204.47 53.34)
@@ -2664,6 +3829,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bd474a-83fb-4119-bf5b-d6a947f36858")
+	)
+	(wire
+		(pts
 			(xy 163.83 59.69) (xy 160.02 59.69)
 		)
 		(stroke
@@ -2691,6 +3866,36 @@
 			(type default)
 		)
 		(uuid "16fe0c8d-d030-405c-ba21-8baea5da504b")
+	)
+	(wire
+		(pts
+			(xy 102.87 29.21) (xy 125.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1901e2e7-bf19-4c59-a660-c338552909a2")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7b1e4c-bbb2-4f5c-9351-01e9e887eb7a")
+	)
+	(wire
+		(pts
+			(xy 118.11 40.64) (xy 123.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bdb1d4-a8fe-4dc7-82c4-54ab70a6e0a2")
 	)
 	(wire
 		(pts
@@ -2734,6 +3939,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 40.64) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b166df9-264c-4183-b9c0-72c792baf1a8")
+	)
+	(wire
+		(pts
 			(xy 114.3 83.82) (xy 129.54 83.82)
 		)
 		(stroke
@@ -2751,6 +3966,16 @@
 			(type default)
 		)
 		(uuid "31d68ffc-8471-46d4-ab97-685d13c9071c")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395b579c-9831-4d84-988e-9c7284e29235")
 	)
 	(wire
 		(pts
@@ -2774,6 +3999,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 125.73) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc21279-ef7a-47cc-a630-f1480e0e04db")
+	)
+	(wire
+		(pts
 			(xy 41.91 19.05) (xy 41.91 30.48)
 		)
 		(stroke
@@ -2794,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 29.21) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483d3cd6-21b8-40a9-b61d-ca96099437cd")
+	)
+	(wire
+		(pts
 			(xy 114.3 83.82) (xy 114.3 92.71)
 		)
 		(stroke
@@ -2801,6 +4046,16 @@
 			(type default)
 		)
 		(uuid "5125a0b4-3a3e-4c40-87fa-21207b60b639")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 204.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545612e7-4ea4-4a9d-9db9-39a9570f412f")
 	)
 	(wire
 		(pts
@@ -2834,6 +4089,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 45.72) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4ae257-e49d-47c4-b92f-000fb2da6cca")
+	)
+	(wire
+		(pts
 			(xy 102.87 68.58) (xy 102.87 73.66)
 		)
 		(stroke
@@ -2841,16 +4106,6 @@
 			(type default)
 		)
 		(uuid "6cb89c6f-a9f1-4f3e-bec2-61c694a6d270")
-	)
-	(wire
-		(pts
-			(xy 209.55 105.41) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705e9968-0769-4f67-8bf3-ae035cb8b77f")
 	)
 	(wire
 		(pts
@@ -2884,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a501694-bda3-4669-882a-0ed66d546b5f")
+	)
+	(wire
+		(pts
 			(xy 185.42 73.66) (xy 102.87 73.66)
 		)
 		(stroke
@@ -2894,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.41) (xy 185.42 83.82)
+			(xy 185.42 88.9) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2911,6 +4176,16 @@
 			(type default)
 		)
 		(uuid "a0abf9aa-40bc-4109-bdad-29da013b425f")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b25456-1d92-4c7f-b3e6-c132ed60066a")
 	)
 	(wire
 		(pts
@@ -2994,6 +4269,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 40.64) (xy 102.87 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcb76e3-c1b7-4006-a708-d2ccdc840430")
+	)
+	(wire
+		(pts
 			(xy 96.52 83.82) (xy 114.3 83.82)
 		)
 		(stroke
@@ -3001,6 +4286,16 @@
 			(type default)
 		)
 		(uuid "d860fb0c-6400-4f0d-af42-11ad9220d95f")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf361f4-8aed-4236-b28f-3685d488c160")
 	)
 	(wire
 		(pts
@@ -3014,13 +4309,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 209.55 105.41)
+			(xy 209.55 53.34) (xy 209.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e74e6ac1-01d6-41c6-a25e-aeefaf0ac84b")
+	)
+	(wire
+		(pts
+			(xy 156.21 29.21) (xy 204.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e757f7c1-28d8-404a-a793-ae0dd9d98cd3")
 	)
 	(wire
 		(pts
@@ -3051,6 +4356,26 @@
 			(type default)
 		)
 		(uuid "ec11d318-2338-4ea8-adfd-ced77838ebe7")
+	)
+	(wire
+		(pts
+			(xy 209.55 110.49) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee78ef38-c085-4793-823e-1a1bb2b295b9")
+	)
+	(wire
+		(pts
+			(xy 209.55 125.73) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3293eb3-38dc-4fc9-92ff-f52813dc09b2")
 	)
 	(wire
 		(pts
@@ -3170,7 +4495,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 26.67 92.71 180)
+		(at 209.55 134.62 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3180,7 +4505,7 @@
 		)
 		(uuid "288afd8f-1e71-4511-8688-62fd56571066")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8143 92.71 0)
+			(at 209.55 141.4757 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,6 +4675,145 @@
 		)
 	)
 	(symbol
+		(lib_id "RMCF2512JT330R:RMCF2512JT330R")
+		(at 135.89 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f2407c-ce78-4ce7-8fa5-4bea7d4f5f5e")
+		(property "Reference" "R4"
+			(at 135.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RMCF2512JT330R"
+			(at 135.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMCF2512JT330R:RESC6332X70N"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa357f10-1fa4-410c-a9d2-6895f85b830e")
+		)
+		(pin "2"
+			(uuid "6c3044f8-e693-474b-b0c5-53dbf61d616f")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APT1608SGC:APT1608SGC")
+		(at 146.05 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af8ab10-14d6-44fc-9791-bd04af51603f")
+		(property "Reference" "LED1"
+			(at 152.4 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APT1608SGC"
+			(at 152.4 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:LED_APT1608SGC_KNB"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APT1608SGC"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9af519ef-c794-452f-9a41-a9be5bb8115d")
+		)
+		(pin "2"
+			(uuid "c8ae552e-6ea9-4272-85a3-3147af5eda91")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JMK325ABJ107MM-P:JMK325ABJ107MM-P")
 		(at 114.3 95.25 270)
 		(unit 1)
@@ -3377,7 +4841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JMK325ABJ107MM-P:CAPC3225X280N"
+		(property "Footprint" "Footprints:CAPC3225X280N"
 			(at 114.3 95.25 0)
 			(effects
 				(font
@@ -3415,6 +4879,175 @@
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DSS14UTR:DSS14UTR")
+		(at 144.78 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d77fa8e-013f-4bd9-8760-81605bc73067")
+		(property "Reference" "D3"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSS14UTR"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DSS14UTR:SODFL3618X110N"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nDiode Schottky 40 V 1A Surface Mount SOD-123FL\n"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123F SMC Diode Solutions"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=eda"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=snap"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DSS14UTR"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS14UTR/?ref=eda"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "b46e9695-ebf8-466a-94b9-2ae6c5a37873")
+		)
+		(pin "C"
+			(uuid "1aff38d5-2ec8-4ed8-8e17-bde71d7894df")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3491,7 +5124,7 @@
 	)
 	(symbol
 		(lib_id "1043P:1043P")
-		(at 193.04 105.41 0)
+		(at 193.04 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3500,7 +5133,7 @@
 		(fields_autoplaced yes)
 		(uuid "33fa2d1b-71a1-4eb9-bde1-63066eca75f3")
 		(property "Reference" "BT1"
-			(at 192.405 97.79 0)
+			(at 192.405 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +5141,7 @@
 			)
 		)
 		(property "Value" "1043P"
-			(at 192.405 100.33 0)
+			(at 192.405 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +5149,7 @@
 			)
 		)
 		(property "Footprint" "1043P:BAT_1043P"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +5159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +5168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +5177,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +5187,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +5197,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "1043P"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +5207,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.11mm"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +5217,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 193.04 105.41 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +5267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRM2512-FX-2R00ELF:RESC6331X80N"
+		(property "Footprint" "Footprints:RESC6331X80N"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -3825,7 +5458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc4eeca-6aa7-47b6-a06d-0791f9dec012")
-		(property "Reference" "VR1"
+		(property "Reference" "U12"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -3841,7 +5474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM317T:TO254P1054X470X1955-3"
+		(property "Footprint" "Footprints:TO254P1054X470X1955-3"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -3921,7 +5554,7 @@
 		(instances
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
-					(reference "VR1")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3937,7 +5570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f41615-410d-49e2-ae2b-d9bc7699fcfb")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 194.31 46.99 0)
 			(effects
 				(font
@@ -3990,7 +5623,7 @@
 		(instances
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4025,7 +5658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JMK325ABJ107MM-P:CAPC3225X280N"
+		(property "Footprint" "Footprints:CAPC3225X280N"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -4191,6 +5824,175 @@
 		)
 	)
 	(symbol
+		(lib_id "DSS14UTR:DSS14UTR")
+		(at 113.03 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41784de-1fa1-40c8-9c28-cb25cc5929dc")
+		(property "Reference" "D1"
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSS14UTR"
+			(at 113.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DSS14UTR:SODFL3618X110N"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nDiode Schottky 40 V 1A Surface Mount SOD-123FL\n"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123F SMC Diode Solutions"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=eda"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=snap"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DSS14UTR"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS14UTR/?ref=eda"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "e8d02644-3857-4288-9995-8d95d9ed6879")
+		)
+		(pin "C"
+			(uuid "7c468dcd-f73d-495a-abb4-5d04768b1d02")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BD140:BD140")
 		(at 105.41 50.8 180)
 		(unit 1)
@@ -4218,7 +6020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BD140:TO229P760X270X1364-3"
+		(property "Footprint" "Footprints:TO229P760X270X1364-3"
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -4305,6 +6107,462 @@
 		)
 	)
 	(symbol
+		(lib_id "DSS14UTR:DSS14UTR")
+		(at 128.27 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd9e0972-e9c7-456a-8293-daffa892e1bd")
+		(property "Reference" "D2"
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSS14UTR"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DSS14UTR:SODFL3618X110N"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nDiode Schottky 40 V 1A Surface Mount SOD-123FL\n"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123F SMC Diode Solutions"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=eda"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=snap"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DSS14UTR"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS14UTR/?ref=eda"
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "83484e29-fb8b-4873-a84b-751f136f5e83")
+		)
+		(pin "C"
+			(uuid "6e2b8b77-ce2e-4fa9-a66f-0ff5da154921")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1043P:1043P")
+		(at 193.04 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf3056ef-3e4a-4fde-8460-2b0bf0b75daf")
+		(property "Reference" "BT2"
+			(at 192.278 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1043P"
+			(at 192.532 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:BAT_1043P"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "1043P"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.11mm"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P"
+			(uuid "278cceb9-3292-4001-b55d-963c70d6dfba")
+		)
+		(pin "N"
+			(uuid "d62ca755-c74d-43da-b046-3407063e04e5")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DSS14UTR:DSS14UTR")
+		(at 162.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf033b50-67a2-4df7-8112-3bbf1cbe0fde")
+		(property "Reference" "D4"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSS14UTR"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DSS14UTR:SODFL3618X110N"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nDiode Schottky 40 V 1A Surface Mount SOD-123FL\n"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123F SMC Diode Solutions"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=eda"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS14UTR/SMC+Diode+Solutions/view-part/?ref=snap"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DSS14UTR"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS14UTR/?ref=eda"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "510499c7-4128-4486-9d13-edb3679379e6")
+		)
+		(pin "C"
+			(uuid "9f2c7307-ee7e-48fd-91c5-8ec572fa9030")
+		)
+		(instances
+			(project "RC KiCAD"
+				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM317T:LM317T")
 		(at 144.78 86.36 0)
 		(unit 1)
@@ -4314,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda4874b-90ef-4fed-97d9-fdf0d23f9ca8")
-		(property "Reference" "VR2"
+		(property "Reference" "U6"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -4330,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM317T:TO254P1054X470X1955-3"
+		(property "Footprint" "Footprints:TO254P1054X470X1955-3"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -4410,7 +6668,7 @@
 		(instances
 			(project "RC KiCAD"
 				(path "/5477624d-10a0-4ba5-8154-74c8312ac63a"
-					(reference "VR2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4514,7 +6772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CX90B1-24P:HRS_CX90B1-24P"
+		(property "Footprint" "Footprints:HRS_CX90B1-24P"
 			(at 63.5 45.72 0)
 			(effects
 				(font

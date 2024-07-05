@@ -1,5 +1,5 @@
 
-(footprint RESC6332X70N (layer F.Cu) (tedit 66852315)
+(footprint RESC6332X70N (layer F.Cu) (tedit 6687CCD6)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -2.61 -2.33 0) (layer F.SilkS)
