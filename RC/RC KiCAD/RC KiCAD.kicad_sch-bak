@@ -3864,6 +3864,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "16fe0c8d-d030-405c-ba21-8baea5da504b")
 	)
@@ -4004,6 +4005,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "3fc21279-ef7a-47cc-a630-f1480e0e04db")
 	)
@@ -4172,8 +4174,9 @@
 			(xy 114.3 125.73) (xy 66.04 125.73)
 		)
 		(stroke
-			(width 0)
+			(width 0.0254)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "a0abf9aa-40bc-4109-bdad-29da013b425f")
 	)
