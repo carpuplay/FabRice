@@ -39,7 +39,7 @@ La Phase 1 de développement de FabRice se concentre sur les objectifs suivants 
 - **Bibliothèques nécessaires :** Installez les bibliothèques nécessaires depuis le gestionnaire de bibliothèques de l'IDE Arduino.
 
 ```bash
-# Exemple d'installation de bibliothèques
+# Cette partie est encore en develloppement.
 Arduino IDE > Sketch > Include Library > Manage Libraries > Rechercher et installer :
 - Adafruit Motor Shield
 - Wire
