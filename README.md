@@ -19,10 +19,11 @@ La Phase 1 de développement de FabRice se concentre sur les objectifs suivants 
 
 ### Matériel
 
-- **Châssis :** Conçu en CAO et fabriqué avec des imprimantes 3D et des découpeuses laser.
-- **Motorisation :** Moteurs DC avec réducteurs personnalisés pour obtenir le couple nécessaire.
-- **Capteurs :** Seront implémentés dans les phases futures, mais on envisage des capteurs de distance, des caméras et des capteurs de température.
-- **PCB :** Conçues avec KiCad, elles incluent des contrôleurs de moteur, des régulateurs de tension et des connexions pour capteurs et actionneurs.
+- **[Châssis](https://github.com/carpuplay/FabRice/wiki/Chassis) :** Conçu en CAO et fabriqué avec des imprimantes 3D et des découpeuses laser.
+- **[Motorisation](https://github.com/carpuplay/FabRice/wiki/Moteurs) :** Moteurs DC avec réducteurs personnalisés pour obtenir le couple nécessaire.
+- **[Électronique](https://github.com/carpuplay/FabRice/wiki/Electronique) :** Inclut tous les circuits et composants électroniques utilisés dans le robot.
+- **[Électricité](https://github.com/carpuplay/FabRice/wiki/Electricite) :** Gestion de l'alimentation et des connexions électriques.
+- **[PCB](https://github.com/carpuplay/FabRice/wiki/PCB) :** Conçues avec KiCad, elles incluent des contrôleurs de moteur, des régulateurs de tension et des connexions pour capteurs et actionneurs.
 
 ### Logiciel
 
@@ -39,7 +40,7 @@ La Phase 1 de développement de FabRice se concentre sur les objectifs suivants 
 - **Bibliothèques nécessaires :** Installez les bibliothèques nécessaires depuis le gestionnaire de bibliothèques de l'IDE Arduino.
 
 ```bash
-# Cette partie est encore en develloppement.
+# Cette partie est encore en développement.
 Arduino IDE > Sketch > Include Library > Manage Libraries > Rechercher et installer :
 - Adafruit Motor Shield
 - Wire
