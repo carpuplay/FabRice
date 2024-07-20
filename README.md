@@ -68,7 +68,7 @@ Arduino IDE > Tools > Port > Sélectionnez le port correspondant
 Arduino IDE > Sketch > Upload
 ```
 
-## <span style="color:darkred">Utilisation</span>
+## <span style="color:darkred">Utilisation (Expected) </span>
 
 1. **Allumez le robot :** Connectez la batterie et allumez l'interrupteur principal.
 2. **Contrôle manuel :** Utilisez le contrôleur à distance pour manipuler le robot. Assurez-vous que le robot se trouve dans une zone sécurisée pour l'opération.
