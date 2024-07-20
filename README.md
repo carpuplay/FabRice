@@ -1,4 +1,4 @@
-![FabRice Banner](https://github.com/carpuplay/FabRice/blob/main/assets/banner.png)
+![FabRice Banner](https://github.com/carpuplay/FabRice/blob/main/Assets/banner.png)
 (La Phase 1 de développement a été financé par la CVEC)
 
 # FabRice ![Distribution](https://img.shields.io/badge/Distribution-v0.3_alpha-red) ![Workflow](https://img.shields.io/badge/See%20our%20Workflow-black?logo=notion&link=https%3A%2F%2Fwww.notion.so%2Fteam%2F02e4a775-5faf-4f9c-b3c9-5d9b888db163%2Fjoin) ![PCB](https://img.shields.io/badge/PCB-darkblue?logo=Kicad)
