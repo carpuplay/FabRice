@@ -1,4 +1,5 @@
-![FabRice Banner](https://github.com/carpuplay/FabRice/blob/main/media/banner.png)
+![FabRice Banner](https://github.com/carpuplay/FabRice/blob/main/Assets/banner.png)
+(La Phase 1 de développement a été financé par la CVEC)
 
 # FabRice ![Distribution](https://img.shields.io/badge/Distribution-v0.3_alpha-red) ![Workflow](https://img.shields.io/badge/See%20our%20Workflow-black?logo=notion&link=https%3A%2F%2Fwww.notion.so%2Fteam%2F02e4a775-5faf-4f9c-b3c9-5d9b888db163%2Fjoin) ![PCB](https://img.shields.io/badge/PCB-darkblue?logo=Kicad)
 
@@ -68,7 +69,7 @@ Arduino IDE > Tools > Port > Sélectionnez le port correspondant
 Arduino IDE > Sketch > Upload
 ```
 
-## <span style="color:darkred">Utilisation</span>
+## <span style="color:darkred">Utilisation (Expected) </span>
 
 1. **Allumez le robot :** Connectez la batterie et allumez l'interrupteur principal.
 2. **Contrôle manuel :** Utilisez le contrôleur à distance pour manipuler le robot. Assurez-vous que le robot se trouve dans une zone sécurisée pour l'opération.
@@ -97,3 +98,4 @@ Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 ## <span style="color:darkred">Contact</span>
 
 Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir un issue ou à nous contacter directement.
+![imagen](https://github.com/user-attachments/assets/4dbb621a-d24c-4b84-a760-eedf7ef61fe9)
