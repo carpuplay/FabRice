@@ -10,7 +10,7 @@
 	(title_block
 		(title "Full Size PCB Template")
 		(date "2024-08-05")
-		(rev "Initial Commit")
+		(rev "2 ")
 		(company "FabRice Team - Campus Fab")
 	)
 	(layers
@@ -549,6 +549,16 @@
 			(pintype "input")
 			(uuid "1af625ac-9c0a-412e-92d9-747069f7508b")
 		)
+	)
+	(gr_line
+		(start 110 25)
+		(end 110 150)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "023a4fc4-be0b-4238-a81b-1423b68ab323")
 	)
 	(gr_arc
 		(start 160 145)
