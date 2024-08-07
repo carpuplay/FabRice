@@ -1,4 +1,4 @@
-23034594339962229
+23025979602165841
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55860,26 +55860,12 @@ emi filter
 5
 5
 Footprints
-691137710002
-<b>WR-TBL Serie 1377 - 5.00 mm Horiz Entry w. Pressure Clamp Glow Wire<br></b>Max Height = 11.5mm , Pitch 5mm , 2 Pins
-
-0
-2
-2
-Footprints
 BAT_1043P
 
 
 0
 2
 2
-Footprints
-BAT_1048
-
-
-0
-4
-4
 Footprints
 CAPC3225X280N
 
@@ -55909,20 +55895,6 @@ CYPD3177-24LQXQT
 25
 25
 Footprints
-DIOM7959X262N
-
-
-0
-2
-2
-Footprints
-FUSC6125X279N
-
-
-0
-2
-2
-Footprints
 GCT_USB4085-GF-A_REVB
 
 
@@ -55947,13 +55919,6 @@ Footprints
 LED_APT1608SGC_KNB
 
 APT1608SGC 
-0
-2
-2
-Footprints
-PHOENIX_1984963
-
-
 0
 2
 2
