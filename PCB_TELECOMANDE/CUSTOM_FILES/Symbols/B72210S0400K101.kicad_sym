@@ -1,0 +1,77 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "B72210S0400K101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "RV" (id 0) (at -5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "B72210S0400K101" (id 1) (at -5.08 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "B72210S0400K101:VAR_B72210S0400K101" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2018-10" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "TDK" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "B72210S0400K101_0_0"
+      (polyline
+        (pts (xy -1.27 -1.27) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -1.27) (xy 2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 1.27) (xy 3.81 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.27) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -1.27) (xy -2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 1.27) (xy -3.81 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -1.27) (xy -5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -2.54) (xy 3.556 2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -2.54) (xy -5.334 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.3175 -1.27) (xy 0.0 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 0.3175 -1.27)) (stroke (width 0.254))
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

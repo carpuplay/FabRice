@@ -109,7 +109,7 @@
 			)
 		)
 		(property "Value" "green led"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e9d097e-e594-450b-bb27-cdf57b99bff3")
@@ -282,7 +282,7 @@
 			(uuid "a4fe44c9-f511-4478-8832-186fb1615b04")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "54a9f65a-87e5-4c0e-91ac-421e220828bf")
 			(effects
@@ -1166,7 +1166,7 @@
 			)
 		)
 		(property "Value" "green led"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5dd1e6c8-5340-4563-bc66-11940920f7bc")
@@ -1339,7 +1339,7 @@
 			(uuid "9326f4dd-9cf4-4ece-97fa-0511e0d04727")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6b22d5f2-86a5-4480-b89b-a27ba9c42be4")
 			(effects
@@ -2147,7 +2147,8 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.1)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

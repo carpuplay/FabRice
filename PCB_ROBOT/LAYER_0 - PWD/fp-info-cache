@@ -1,4 +1,4 @@
-23025979602165841
+23043210669069861
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55860,12 +55860,26 @@ emi filter
 5
 5
 Footprints
+691137710002
+<b>WR-TBL Serie 1377 - 5.00 mm Horiz Entry w. Pressure Clamp Glow Wire<br></b>Max Height = 11.5mm , Pitch 5mm , 2 Pins
+
+0
+2
+2
+Footprints
 BAT_1043P
 
 
 0
 2
 2
+Footprints
+BAT_1048
+
+
+0
+4
+4
 Footprints
 CAPC3225X280N
 
@@ -55881,6 +55895,13 @@ CON_524373071_MOL
 32
 32
 Footprints
+CON_5031590600_MOL
+
+5031590600 
+0
+6
+6
+Footprints
 CUI_CEM-1206S
 
 
@@ -55894,6 +55915,20 @@ CYPD3177-24LQXQT
 0
 25
 25
+Footprints
+DIOM7959X262N
+
+
+0
+2
+2
+Footprints
+FUSC6125X279N
+
+
+0
+2
+2
 Footprints
 GCT_USB4085-GF-A_REVB
 
@@ -55919,6 +55954,13 @@ Footprints
 LED_APT1608SGC_KNB
 
 APT1608SGC 
+0
+2
+2
+Footprints
+PHOENIX_1984963
+
+
 0
 2
 2
@@ -55993,12 +56035,26 @@ SODFL3618X110N
 2
 2
 Footprints
+SOIC127P600X175-8N
+
+
+0
+8
+8
+Footprints
 SOP65P490X110-8N
 
 
 0
 8
 8
+Footprints
+SOT-5X3-6_DRL_TEX
+
+TPS566247DRLR 
+0
+6
+6
 Footprints
 SOT-23_DMP3098LQ_DIO-L
 
@@ -56062,6 +56118,20 @@ TO254P1054X470X1955-3
 0
 3
 3
+Footprints
+VARS_ZA14_68-100_LTF
+
+V68ZA10P 
+0
+2
+2
+Footprints
+VAR_B72210S0400K101
+
+
+0
+2
+2
 Footprints
 XCVR_ESP32-S3-WROOM-2-N32R8V
 
