@@ -1,4 +1,15 @@
+<<<<<<< Updated upstream
 23025979602165841
+=======
+23055276550377784
+3d-files
+CSD19536KTTT
+KTT-(R-PSFM-G3)
+MOSFET (N-Channel)
+0
+3
+3
+>>>>>>> Stashed changes
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55860,6 +55871,23 @@ emi filter
 5
 5
 Footprints
+<<<<<<< Updated upstream
+=======
+691137710002
+<b>WR-TBL Serie 1377 - 5.00 mm Horiz Entry w. Pressure Clamp Glow Wire<br></b>Max Height = 11.5mm , Pitch 5mm , 2 Pins
+
+0
+2
+2
+Footprints
+17352658
+1735265-8-2
+Connector
+0
+10
+10
+Footprints
+>>>>>>> Stashed changes
 BAT_1043P
 
 
@@ -55916,6 +55944,13 @@ IC_DRV8601DRBT
 13
 13
 Footprints
+INDPM172172X400N
+17.15mm x 17.15mm
+Inductor
+0
+2
+2
+Footprints
 LED_APT1608SGC_KNB
 
 APT1608SGC 
@@ -55938,6 +55973,13 @@ QFN40P450X250X80-31N120X320
 31
 Footprints
 QFN50P400X400X90-25N
+
+
+0
+25
+25
+Footprints
+QFN50P400X400X100-25N
 
 
 0
@@ -55978,6 +56020,13 @@ RESC6332X70N
 0
 2
 2
+Footprints
+RGY0020B-MFG
+
+LM5146RGYR 
+0
+25
+25
 Footprints
 SOD-123F_LTF
 
@@ -56063,6 +56112,37 @@ TO254P1054X470X1955-3
 3
 3
 Footprints
+<<<<<<< Updated upstream
+=======
+TRANS_CSD19534Q5A
+
+
+0
+5
+5
+Footprints
+VARS_ZA14_68-100_LTF
+
+V68ZA10P 
+0
+2
+2
+Footprints
+VAR_B72210S0400K101
+
+
+0
+2
+2
+Footprints
+XAL5030222MEC
+XAL5030-222MEC-3
+Inductor
+0
+2
+2
+Footprints
+>>>>>>> Stashed changes
 XCVR_ESP32-S3-WROOM-2-N32R8V
 
 
