@@ -1,0 +1,18 @@
+<div>  </div>
+<hr />
+<div><strong></strong></div>
+<div><strong>CARP Alexandru - </strong><span lang="fr">&Eacute;tudiant en licence Informatique</span></div>
+<div><strong>RACOT Ludovic - </strong><span lang="fr">&Eacute;tudiant en licence Informatique</span></div>
+<div><span lang="fr"></span></div>
+<div><strong>T&eacute;l&eacute;phone :</strong> 07 83 99 62 61</div>
+<div><strong>Adresse :</strong> 325 All. Th&eacute;odore Despeyrous, 31400 Toulouse (<em>B&acirc;timent U4 - RDC Salle U-41</em>)</div>
+<div></div>
+<table style="width: 100%; max-width: 12000px; margin: auto;">
+<tbody>
+<tr>
+<td style="background-color: #2f2b29; padding: 10px; font-size: 12px; color: #fef0e3; font-family: 'Poppins', sans-serif;">
+<div><img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABRICE_BLANC.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /> <img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABLAB.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /> <img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_UT3.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /></div>
+</td>
+</tr>
+</tbody>
+</table>
