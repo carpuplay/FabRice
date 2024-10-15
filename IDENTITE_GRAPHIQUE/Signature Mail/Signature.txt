@@ -11,7 +11,12 @@
 <tbody>
 <tr>
 <td style="background-color: #2f2b29; padding: 10px; font-size: 12px; color: #fef0e3; font-family: 'Poppins', sans-serif;">
-<div><img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABRICE_BLANC.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /> <img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABLAB.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /> <img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_UT3.png?raw=true" style="display: inline-block; margin: 0 20px; width: auto; height: 100px;" /></div>
+<div>
+<img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABRICE_BLANC.png?raw=true" style="margin-right: 30px; width: auto; height: 75px;" /> 
+<img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_FABLAB.png?raw=true" style="margin-right: 30px; width: auto; height: 75px;" /> 
+<img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_UT3.png?raw=true" style="margin-right: 30px; width: auto; height: 75px;" /> 
+<img src="https://github.com/carpuplay/FabRice/blob/main/IDENTITE_GRAPHIQUE/Signature%20Mail/LOGO_MARIANNE.png?raw=true" style="margin-right: 30px; width: auto; height: 75px;"/>
+</div>
 </td>
 </tr>
 </tbody>
