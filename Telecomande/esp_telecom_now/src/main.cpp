@@ -164,17 +164,18 @@ void loop() {
     getData(&joystickData);
 
     // Debug
-    log_d("Envoi - X: %d | Y: %d | XR: %d | YR: %d | LEDL: %s | LEDR: %s",
-          joystick.xl, joystick.yl, joystick.xr, joystick.yr,
-          joystick.ledl ? "ON" : "OFF", joystick.ledr ? "ON" : "OFF");
-    log_d("Boutons - A: %d | B: %d | ARM: %d | Batterie: %.2fV",
-          data.btn1_a, data.btn1_b, data.sw_arm, data.v_bat);
+    log_d("Joystick gauche - X: %d | Y: %d | Button: %s;/nJoystick droit - X: %d | Y: %d | Button: %s",
+          joystickData.xLeft, joystickData.yLeft, joystickData.joystickButtonLeft ? "ON" : "OFF",
+          joystickData.xRight, joystickData.yRight, joystickData.joystickButtonRight ? "ON" : "OFF");
+    log_d("Button A: %s | Button B: %s | Switch Arm: %s",
+          joystickData.buttonA ? "ON" : "OFF",
+          joystickData.buttonB ? "ON" : "OFF",
+          joystickData.switchArm ? "ON" : "OFF");
+    
 
     // Data transmission
     
     esp_now_send(robotMAC, (uint8_t *)&joystick, sizeof(joystick));
-    esp_now_send(robotMAC, (uint8_t *)&data, sizeof(data));
-    
 
     lastSendTime = millis();
   }
