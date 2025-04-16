@@ -20,11 +20,13 @@ typedef struct {
   uint16_t yLeft;
   uint16_t yRight;
 
-  bool buttonLeft;
-  bool buttonRight;
+  bool joystickButtonLeft;
+  bool joystickButtonRight;
 
+  bool buttonA;
+  bool buttonB;
+  bool switchArm;
 } TelecommandData;
-
 
 
 Led ledJoystickLeft(LED_PIN);

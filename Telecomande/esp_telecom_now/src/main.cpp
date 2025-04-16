@@ -54,22 +54,22 @@ extern "C" int lwip_hook_ip6_input(void *p) {
   return 1;
 }
 
-/* Data structure */
 typedef struct {
-  uint32_t xLeft;
-  uint32_t xRight;
-  int yLeft;
-  int yRight;
-  bool buttonLeft;
-  bool buttonRight;
-} JoystickData;
 
-typedef struct {
+  uint16_t xLeft;
+  uint16_t xRight;
+
+  uint16_t yLeft;
+  uint16_t yRight;
+
+  bool joystickButtonLeft;
+  bool joystickButtonRight;
+
   bool buttonA;
   bool buttonB;
   bool switchArm;
-  float voltageBattery;
-} DataTelec;
+} TelecommandData;
+
 
 /* Telecommande Module */
 Joystick joystickLeft(VRX_LEFT_PIN, VRY_LEFT_PIN, SW_LEFT_PIN);
@@ -132,7 +132,7 @@ void setup() {
   }
 }
 
-void getData(JoystickData *joystick, DataTelec *data) {
+void getData(JoystickData *joystick) {
 
   moyenneXL + joystickLeft.getX();
   moyenneYL + joystickLeft.getY();
@@ -144,23 +144,24 @@ void getData(JoystickData *joystick, DataTelec *data) {
   joystick->xRight = moyenneXR.getMoyenne();
   joystick->yRight = moyenneYR.getMoyenne();
 
-  joystick->buttonLeft = joystickLeft.isPressed();
-  joystick->buttonRight = joystickRight.isPressed();
+  joystick->joystickButtonLeft = joystickLeft.isPressed();
+  joystick->joystickButtonRight = joystickRight.isPressed();
 
-  data->buttonA = buttonA.isPressed();
-  data->buttonB = buttonB.isPressed();
-  data->switchArm = switchArm.isPressed();
+  joystick->buttonA = buttonA.isPressed();
+  joystick->buttonB = buttonB.isPressed();
+  joystick->switchArm = switchArm.isPressed();
 
+  /*
   moyenneBat + battery.readVoltage();
   data->voltageBattery = moyenneBat.getMoyenne();
+  */
 }
 
 void loop() {
   if (millis() - lastSendTime >= sendInterval) {
     JoystickData joystickData;
-    DataTelec dataTelec;
 
-    getData(&joystickData, &dataTelec);
+    getData(&joystickData);
 
     // Debug
     log_d("Envoi - X: %d | Y: %d | XR: %d | YR: %d | LEDL: %s | LEDR: %s",
