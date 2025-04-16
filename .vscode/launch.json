@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ludov/Desktop/FabRice-1/Telecomande/esp_telecom_now/Telecommande/src",
-      "program": "c:/Users/ludov/Desktop/FabRice-1/Telecomande/esp_telecom_now/Telecommande/src/build/Debug/outDebug",
+      "cwd": "c:/Users/ludov/Desktop/FabRice-1/Telecomande/esp_telecom_now/src",
+      "program": "c:/Users/ludov/Desktop/FabRice-1/Telecomande/esp_telecom_now/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
