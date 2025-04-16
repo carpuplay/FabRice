@@ -132,24 +132,24 @@ void setup() {
   }
 }
 
-void getData(JoystickData *joystick) {
+void getData(TelecommandData *telecommandData) {
 
   moyenneXL + joystickLeft.getX();
   moyenneYL + joystickLeft.getY();
   moyenneXR + joystickRight.getX();
   moyenneYR + joystickRight.getY();
 
-  joystick->xLeft = moyenneXL.getMoyenne();
-  joystick->yLeft = moyenneYL.getMoyenne();
-  joystick->xRight = moyenneXR.getMoyenne();
-  joystick->yRight = moyenneYR.getMoyenne();
+  telecommandData->xLeft = moyenneXL.getMoyenne();
+  telecommandData = moyenneYL.getMoyenne();
+  telecommandData = moyenneXR.getMoyenne();
+  telecommandData = moyenneYR.getMoyenne();
 
-  joystick->joystickButtonLeft = joystickLeft.isPressed();
-  joystick->joystickButtonRight = joystickRight.isPressed();
+  telecommandData->joystickButtonLeft = joystickLeft.isPressed();
+  telecommandData->joystickButtonRight = joystickRight.isPressed();
 
-  joystick->buttonA = buttonA.isPressed();
-  joystick->buttonB = buttonB.isPressed();
-  joystick->switchArm = switchArm.isPressed();
+  telecommandData->buttonA = buttonA.isPressed();
+  telecommandData->buttonB = buttonB.isPressed();
+  telecommandData->switchArm = switchArm.isPressed();
 
   /*
   moyenneBat + battery.readVoltage();
@@ -159,18 +159,18 @@ void getData(JoystickData *joystick) {
 
 void loop() {
   if (millis() - lastSendTime >= sendInterval) {
-    JoystickData joystickData;
+    TelecommandData telecommandData;
 
-    getData(&joystickData);
+    getData(&telecommandData);
 
     // Debug
     log_d("Joystick gauche - X: %d | Y: %d | Button: %s;/nJoystick droit - X: %d | Y: %d | Button: %s",
-          joystickData.xLeft, joystickData.yLeft, joystickData.joystickButtonLeft ? "ON" : "OFF",
-          joystickData.xRight, joystickData.yRight, joystickData.joystickButtonRight ? "ON" : "OFF");
+          telecommandData.xLeft, telecommandData.yLeft, telecommandData.joystickButtonLeft ? "ON" : "OFF",
+          telecommandData.xRight, telecommandData.yRight, telecommandData.joystickButtonRight ? "ON" : "OFF");
     log_d("Button A: %s | Button B: %s | Switch Arm: %s",
-          joystickData.buttonA ? "ON" : "OFF",
-          joystickData.buttonB ? "ON" : "OFF",
-          joystickData.switchArm ? "ON" : "OFF");
+          telecommandData.buttonA ? "ON" : "OFF",
+          telecommandData.buttonB ? "ON" : "OFF",
+          telecommandData.switchArm ? "ON" : "OFF");
     
 
     // Data transmission

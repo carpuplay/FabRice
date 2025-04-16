@@ -49,15 +49,19 @@ void sendSPI(JoystickData joystick) {
 
 // Callback de réception ESP-NOW
 void onReceive(const esp_now_recv_info_t *recvInfo, const uint8_t *incomingData, int len) {
-  JoystickData joystick;
+  TelecommandData telecommandData;
   memcpy(&joystick, incomingData, sizeof(joystick));
 
-  log_d("Joystick reçu - X: %d | Y: %d | XR: %d | YR: %d | LED 1: %s | LED 2: %s",
-         joystick.x, joystick.y, joystick.xr, joystick.yr,
-         joystick.led ? "ON" : "OFF", joystick.ledr ? "ON" : "OFF");
+  log_d("Joystick gauche - X: %d | Y: %d | Button: %s;/nJoystick droit - X: %d | Y: %d | Button: %s",
+    joystickData.xLeft, joystickData.yLeft, joystickData.joystickButtonLeft ? "ON" : "OFF",
+    joystickData.xRight, joystickData.yRight, joystickData.joystickButtonRight ? "ON" : "OFF");
+  log_d("Button A: %s | Button B: %s | Switch Arm: %s",
+    joystickData.buttonA ? "ON" : "OFF",
+    joystickData.buttonB ? "ON" : "OFF",
+    joystickData.switchArm ? "ON" : "OFF");
 
   // Contrôle des LEDs
-  if (joystick.buttonLeft) {
+  if (joystick.joystickButtonLeft) {
     ledJoystickLeft.on();
   } else {
     ledJoystickLeft.off();
