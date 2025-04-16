@@ -56,31 +56,31 @@ extern "C" int lwip_hook_ip6_input(void *p) {
 
 /* Data structure */
 typedef struct {
-  uint32_t xl;
-  uint32_t xr;
-  int yl;
-  int yr;
-  bool ledl;
-  bool ledr;
+  uint32_t xLeft;
+  uint32_t xRight;
+  int yLeft;
+  int yRight;
+  bool buttonLeft;
+  bool buttonRight;
 } JoystickData;
 
 typedef struct {
-  bool btn1_a;
-  bool btn1_b;
-  bool sw_arm;
-  float v_bat;
+  bool buttonA;
+  bool buttonB;
+  bool switchArm;
+  float voltageBattery;
 } DataTelec;
 
 /* Telecommande Module */
 Joystick joystickLeft(VRX_LEFT_PIN, VRY_LEFT_PIN, SW_LEFT_PIN);
 Joystick joystickRight(VRX_RIGHT_PIN, VRY_RIGHT_PIN, SW_RIGHT_PIN);
-Battery batterie(V_SENSE_PIN, MAX_VBAT, R1, R2, VREF);
+Battery battery(V_SENSE_PIN, MAX_VBAT, R1, R2, VREF);
 
 Buzzer buzzer(BUZZER_PIN);
 
-Button btn1_a(BTN1_A_PIN);
-Button btn1_b(BTN1_B_PIN);
-Button sw_arm(SW_ARM);
+Button buttonA(BTN1_A_PIN);
+Button buttonB(BTN1_B_PIN);
+Button switchArm(SW_ARM);
 
 Led lowBatLed(LOW_BAT_LED);
 
@@ -133,20 +133,26 @@ void setup() {
 }
 
 void getData(JoystickData *joystick, DataTelec *data) {
-  joystick->xl = joystickLeft.getX();
-  joystick->yl = joystickLeft.getY();
-  joystick->xr = joystickRight.getX();
-  joystick->yr = joystickRight.getY();
 
-  joystick->ledl = joystickLeft.isPressed();
-  joystick->ledr = joystickRight.isPressed();
+  moyenneXL + joystickLeft.getX();
+  moyenneYL + joystickLeft.getY();
+  moyenneXR + joystickRight.getX();
+  moyenneYR + joystickRight.getY();
 
-  data->btn1_a = digitalRead(BTN1_A_PIN) == LOW;
-  data->btn1_b = digitalRead(BTN1_B_PIN) == LOW;
-  data->sw_arm = digitalRead(SW_ARM) == LOW;
+  joystick->xLeft = moyenneXL.getMoyenne();
+  joystick->yLeft = moyenneYL.getMoyenne();
+  joystick->xRight = moyenneXR.getMoyenne();
+  joystick->yRight = moyenneYR.getMoyenne();
 
-  moyenneBat + batterie.readVoltage();
-  data->v_bat = moyenneBat.getMoyenne();
+  joystick->buttonLeft = joystickLeft.isPressed();
+  joystick->buttonRight = joystickRight.isPressed();
+
+  data->buttonA = buttonA.isPressed();
+  data->buttonB = buttonB.isPressed();
+  data->switchArm = switchArm.isPressed();
+
+  moyenneBat + battery.readVoltage();
+  data->voltageBattery = moyenneBat.getMoyenne();
 }
 
 void loop() {
