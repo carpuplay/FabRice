@@ -10,19 +10,19 @@ class Joystick {
         int yPin;
         int swPin;
 
+        ADS1015 ads;
+
     public :
-        Joystick(int xPin, int yPin, int swPin) : xPin(xPin), yPin(yPin), swPin(swPin) {
-            pinMode(xPin, INPUT);
-            pinMode(yPin, INPUT);
+        Joystick(int xPin, int yPin, int swPin, ADS1015& ads) : xPin(xPin), yPin(yPin), swPin(swPin), ads(ads) {
             pinMode(swPin, INPUT_PULLUP);
         }
 
         uint16_t getX() {
-            return analogRead(xPin);
+            return ads.readADC(xPin);
         }
 
         uint16_t getY() {
-            return analogRead(yPin);
+            return ads.readADC(yPin);
         }
 
         bool isPressed() {

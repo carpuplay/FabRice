@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <esp_now.h>
 #include <WiFi.h>
+#include <ADS1X15.h>
 
 #include <joystick.h>
 #include <moyenne.h>
@@ -18,13 +19,13 @@
 */
 
 /* Left joystick PINs */
-#define VRX_LEFT_PIN  4  // Joystick gauche X
-#define VRY_LEFT_PIN  5  // Joystick gauche Y
+#define VRX_LEFT_ADS_PIN  0  // Joystick gauche X
+#define VRY_LEFT_ADS_PIN  1  // Joystick gauche Y
 #define SW_LEFT_PIN   8  // Bouton poussoir gauche
 
 // Right joystick PINs
-#define VRX_RIGHT_PIN  1  // Joystick droit X
-#define VRY_RIGHT_PIN  0  // Joystick droit Y
+#define VRX_RIGHT_ADS_PIN  2  // Joystick droit X
+#define VRY_RIGHT_ADS_PIN  3  // Joystick droit Y
 #define SW_RIGHT_PIN  11  // Bouton poussoir droit
 
 /* Buzzer PIN */
@@ -72,8 +73,11 @@ typedef struct {
 
 
 /* Telecommande Module */
-Joystick joystickLeft(VRX_LEFT_PIN, VRY_LEFT_PIN, SW_LEFT_PIN);
-Joystick joystickRight(VRX_RIGHT_PIN, VRY_RIGHT_PIN, SW_RIGHT_PIN);
+ADS1015 ADS1(0x48);
+ADS1015 ADS2(0x49);
+
+Joystick joystickLeft(VRX_LEFT_ADS_PIN, VRY_LEFT_ADS_PIN, SW_LEFT_PIN, ADS1);
+Joystick joystickRight(VRX_RIGHT_ADS_PIN, VRY_RIGHT_ADS_PIN, SW_RIGHT_PIN, ADS1);
 Battery battery(V_SENSE_PIN, MAX_VBAT, R1, R2, VREF);
 
 Buzzer buzzer(BUZZER_PIN);
