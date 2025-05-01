@@ -76,12 +76,6 @@ void onReceive(const esp_now_recv_info_t *recvInfo, const uint8_t *incomingData,
   sendSPI(joystick);
 }
 
-// Callback d'envoi (optionnel)
-void onSent(const uint8_t *macAddr, esp_now_send_status_t status) {
-  Serial.print("📡 Données envoyées, statut: ");
-  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "✅ Succès" : "❌ Échec");
-}
-
 void setup() {
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
